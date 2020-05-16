@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a:hover{
+    text-decoration: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+}
+header{
+    background-image: url(../Images/hero.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center;
+    min-height: 95vh;
+}
+header #mainNav{
+    padding: 20px 120px;
+    padding-top: 30px;
+}
+nav .logo{
+    width: 150px;
+}
+header #mainNav ul li {
+    margin-left: 20px;
+}
+header #mainNav ul li a{
+    font-size: 14px;
+    color: #fff;
+}
+header #mainNav .btn-nav{
+    border: 1px solid #38619e;
+    color: #38619e;
+    padding: 8px 35px;
+    border-radius: 30px;
+}
+
+header .hero-content{
+    padding-top: 100px;
+    padding-bottom: 0px;
+}
+header .hero-content h1{
+    font-weight: 300;
+    font-size: 45px;
+}
+header .hero-content h4{
+    font-size: 26px;
+    color: #677491;
+}
+header .hero-content .hero-btn{
+    background: #5584ff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 8px 35px;
+    margin-top: 30px;
+}
+.dashboard-img{
+    margin-top: -320px;
+}
+section{
+    padding: 60px 0;
+}
+.card{
+    border: 0;
+}
+
+.service-section{
+    
+}
+.service-section img{
+    width: 50px;
+}
+.service-section h4{
+    font-size: 22px;
+    font-weight: 500;
+    font-family: monospace;
+    margin: 20px 0;
+}
+.service-section p{
+    font-size: 14px;
+}
+.service-section .btn-service{
+    border: 1px solid #cfcdcd;
+    font-size: 14px;
+    padding: 8px 30px;
+    border-radius: 25px;
+    color: #111;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.dash{
+    background: #f6f7fa;
+}
+
+.dash h3{
+    font-weight: 300;
+    font-size: 32px;
+}
+.dash p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #c2c8d6;
+}
+.dash ul {
+    margin-top: 25px;
+}
+.dash ul li{
+    color: #5584ff;
+    margin-bottom: 8px;
+}
+
+
+.drag_drop{
+    background-image: url(../Images/hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    color: #fff;
+    padding: 70px 0;
+}
+.drag_drop h6{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.drag_drop h6 span{
+    font-size: 16px;
+    color: #adadad;
+}
+.drag_drop h6  b{
+    margin-left: 90px;
+    
+}
+.drag_drop .row1{
+    background: #fff;
+    color: #111;
+    margin-bottom: 8px;
+    padding: 5px;
+    transition: .6s;
+    margin-right: 8px;
+}
+.drag_drop .row1:hover{
+    transform: skewX(25deg);
+}
+.drag_drop .row1:hover i{
+    color: red;
+}
+.drag_drop .row1 span{
+    background: blue;
+    padding: 5px;
+    border-radius: 50%;  
+    color: #fff;
+    font-size: 14px;
+    
+}
+.drag_drop .row1 p{
+    margin: 0;
+}
+.drag_drop i{
+    font-size: 12px;
+    color: #b4b0b0;
+}
+
+.drag_drop .div1{
+    margin:0 8px;
+}
+.drag_drop .fa{
+    transform: scale(1.5);
+}
+.drag_drop h5{
+    font-size: 26px;
+    font-weight: 300;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.drag_drop p{
+    font-size: 16px;
+}
+
+
+.drag_drop .right-side .fa{
+    padding: 8px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: 1px solid #111;
+    margin-right: 20px;
+    line-height: .5;
+}
+.critical{
+    text-align: center;
+    background: #f6f7fa;
+}
+.critical h3{
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+.critical .critical-img{
+    background-image: url(../Images/3d.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 55vh;
+    position: relative;
+}
+.critical .critical-img .top,
+.critical .critical-img .bottom{
+    width: 40%;
+    padding: 10px;
+    position: absolute;
+    text-align: left;
+}
+.critical .critical-img .bottom {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    text-align: right;
+}
+.critical .critical-img .top span,
+.critical .critical-img .bottom span{
+    height: 2px;
+    width: 120%;
+    background: #5584ff;
+    display: block;
+}
+.critical .critical-img .bottom span{
+    width: 120%;
+    margin-left: -500px;
+    display: inline-block;
+}
+
+.pricing-section{
+    text-align: center;
+}
+.pricing-section .card{
+    box-shadow: 5px 5px 5px rgba(17, 17, 17, 0.76);
+    margin-top: 40px;
+    transition: .6s;
+}
+.pricing-section .card:hover{
+     box-shadow: -1px -1px 5px rgba(17, 17, 17, 0.76)
+}
+.pricing-section h3{
+    font-size: 33px;
+    font-weight: 300;
+}
+.pricing-section h6{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.pricing-section h4{
+    display: inline-block;
+    margin: 0;
+    font-size: 34px;
+}
+.pricing-section span{
+    font-size: 15px;
+    color: #adadad;
+}
+.pricing-section p{
+    display: inline-block;
+    margin: 0;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.pricing-section i{
+    font-size: 14px;
+    color: #5584ff;
+}
+.pricing-section ul{
+    margin-top: 20px;
+}
+.pricing-section ul li{
+    margin-bottom: 10px;
+}
+.pricing-section .little-description{
+    margin-top: 35px;
+}
+.pricing-section .pb{
+    display: block;
+    margin-top: 20px;
+}
+
+.pricing-section .pb .btn-price{
+    padding: 8px 20px;
+    border-radius: 25px;
+    background: #5584ff;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+footer{
+    padding: 25px 0;
+    background: #0e1a35;
+    color: #adadad;
+}
+footer span{
+    font-size: 14px;
+}
+footer ul{
+    margin: 0;
+    text-align: right;
+}
+footer ul li{
+    display: inline-block;
+    margin: 0 5px;
+}
+footer ul li a{
+    text-transform: capitalize;
+    color: #adadad;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+\\\\\
+
+
+
+
+
+
+
+
+
+

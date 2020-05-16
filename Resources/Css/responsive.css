@@ -1,0 +1,180 @@
+@media (min-width:0px) and (max-width:380px){
+  header #mainNav{
+    padding: 20px 30px;
+    }
+    nav .logo{
+        width: 120px;
+    }
+    nav i{
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 10px;
+    }
+    header{
+        min-height: 80vh;
+    }
+    header .hero-content{
+        padding-top: 50px;
+    }
+    header .hero-content h1{
+        font-size: 32px;
+    }
+    header .hero-content h4{
+        font-size: 24px;
+        margin: 0;
+    }
+    .dashboard-img{
+        margin: 0;
+    }
+    header .hero-content .hero-btn{
+        padding: 6px 25px;
+        font-size: 15px;
+    }
+    .service-section .card{
+        border: 1px solid #adadad;
+    }
+    .dash{
+        padding: 0 10px;
+    }
+    .dash h3{
+        font-size: 24px;
+        text-align: center;
+    }
+    .dash ul li .fa{
+        margin-right: 10px;
+    }
+    .drag_drop{
+        padding: 40px 0;
+    }
+    section{
+        padding: 40px 0;
+    }
+    .critical h3{
+        font-size: 24px;
+        text-align: center;
+    }
+    .critical p{
+        text-align: justify;
+    }
+    .critical h5{
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .critical .critical-img .top,
+    .critical .critical-img .bottom{
+        width: 45%;
+        background: #ccc;
+    }
+    .critical .critical-img .bottom {
+        top: 0;
+        bottom: inherit;
+    }
+    .critical .critical-img .top span,
+    .critical .critical-img .bottom span{
+        width: 100%;
+    }
+    .pricing-section h3{
+        font-size: 28px;
+    }
+    footer{
+        text-align: center;
+    }
+    footer ul{
+        text-align: center;
+    }
+  
+}
+@media (min-width:381px) and (max-width:575px){
+    header #mainNav{
+    padding: 20px 30px;
+    }
+    nav .logo{
+        width: 120px;
+    }
+    nav i{
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 10px;
+    }
+    header{
+        min-height: 80vh;
+    }
+    header .hero-content{
+        padding-top: 50px;
+    }
+    header .hero-content h1{
+        font-size: 32px;
+    }
+    header .hero-content h4{
+        font-size: 24px;
+        margin: 0;
+    }
+    .dashboard-img{
+        margin: 0;
+    }
+    header .hero-content .hero-btn{
+        padding: 6px 25px;
+        font-size: 15px;
+    }
+    .service-section .card{
+        border: 1px solid #adadad;
+    }
+    .dash{
+        padding: 0 10px;
+    }
+    .dash h3{
+        font-size: 24px;
+        text-align: center;
+    }
+    .dash ul li .fa{
+        margin-right: 10px;
+    }
+    .drag_drop{
+        padding: 40px 0;
+    }
+    section{
+        padding: 40px 0;
+    }
+    .critical h3{
+        font-size: 24px;
+        text-align: center;
+    }
+    .critical p{
+        text-align: justify;
+    }
+    .critical h5{
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .critical .critical-img .top,
+    .critical .critical-img .bottom{
+        width: 45%;
+        background: #ccc;
+    }
+    .critical .critical-img .bottom {
+        top: 0;
+        bottom: inherit;
+    }
+    .critical .critical-img .top span,
+    .critical .critical-img .bottom span{
+        width: 100%;
+    }
+    .pricing-section h3{
+        font-size: 28px;
+    }
+    footer{
+        text-align: center;
+    }
+    footer ul{
+        text-align: center;
+    }
+    
+}
+    
+    
+    
+    
+    
+    
